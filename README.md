@@ -1,23 +1,18 @@
-# Multi-Armed Bandit Experiments
+# Reinforcement Learning Explorations with Q-Learning and Gradient Bandit Algorithms
 
-This repository contains Python code for exploring and comparing different Multi-Armed Bandit (MAB) algorithms. It includes implementations for:
-
-- Epsilon-Greedy with various exploration strategies
-- Optimistic Initial Values
-- Gradient Bandit
+This repository contains Python code for implementing and simulating two reinforcement learning algorithms: Q-learning and the Gradient Bandit algorithm.
 
 ## Key Features
 
-- Visualizes the performance of each algorithm in terms of accumulated reward.
-- Analyzes the impact of different hyperparameters on algorithm behavior.
-- Compares the convergence rates and final Q-value estimates of different algorithms.
+- **Q-Learning Implementation:** Explores how Q-learning learns action values in a multi-armed bandit setting.
+- **Gradient Bandit Algorithm Simulation:** Demonstrates the Gradient Bandit algorithm's ability to balance exploration and exploitation.
+- **Visualization of Results:** Plots accumulated rewards and average Q-values to visualize learning progress.
 
 ## Project Structure
 
 - `README.md`: This file provides an overview of the project.
+- `code.py`: Contains the Python code for the Q-learning simulation and gradient bandit simulation.
 - `requirements.txt`: Lists the required Python libraries.
-- `epsilon_greedy.py`: Contains code for the Epsilon-Greedy algorithm.
-
 
 ## Usage
 
